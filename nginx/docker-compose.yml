@@ -10,7 +10,6 @@ services:
       - ./sites-enabled:/etc/nginx/sites-enabled
       - ./html:/var/www/html
       - ./log:/var/log/nginx
-#    command: sh -c "rm /etc/nginx/nginx.conf"
     ports:
       - 80:80
       - 433:433
