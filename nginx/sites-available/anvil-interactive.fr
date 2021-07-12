@@ -1,13 +1,12 @@
 server {
         listen 80;
-        listen [::]:80;
-
-        root /var/www/anvil-interactive/html;
+        
+        root /var/www/html/anvil-interactive;
         index index.html index.htm index.nginx-debian.html;
 
         server_name anvil-interactive.fr;
 
         location / {
-                try_files $uri $uri/ =404;
+          try_files $uri $uri/ =404;
         }
 }

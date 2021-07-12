@@ -9,8 +9,8 @@ services:
       - ./sites-available:/etc/nginx/sites-available
       - ./sites-enabled:/etc/nginx/sites-enabled
       - ./html:/var/www/html
-    command: bash -c "sudo ln -s /etc/nginx/sites-available/anvil-interactive.fr /etc/nginx/sites-enabled/"
+      - ./log:/var/log/nginx
+#    command: sh -c "rm /etc/nginx/nginx.conf"
     ports:
       - 80:80
       - 433:433
-
