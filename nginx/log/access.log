@@ -17,3 +17,5 @@
 92.184.105.178 - - [12/Jul/2021:14:15:08 +0000] "GET / HTTP/1.1" 304 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:90.0) Gecko/20100101 Firefox/90.0"
 77.205.52.224 - - [12/Jul/2021:14:15:43 +0000] "GET / HTTP/1.1" 200 52 "-" "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1"
 77.205.52.224 - - [12/Jul/2021:14:15:44 +0000] "GET /favicon.ico HTTP/1.1" 404 125 "http://anvil-interactive.fr/" "Mozilla/5.0 (iPhone; CPU iPhone OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Mobile/15E148 Safari/604.1"
+92.184.105.178 - - [12/Jul/2021:14:16:12 +0000] "GET / HTTP/1.1" 200 52 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0"
+92.184.105.178 - - [12/Jul/2021:14:16:12 +0000] "GET /favicon.ico HTTP/1.1" 404 125 "http://anvil-interactive.fr/" "Mozilla/5.0 (X11; Linux x86_64; rv:90.0) Gecko/20100101 Firefox/90.0"
